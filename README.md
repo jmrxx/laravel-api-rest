@@ -32,8 +32,8 @@ Follow these steps to set up the project:
 1. Clone the repository:
 
 ```bash
-git clone https://your-repository-link.git
-cd your-project-folder
+git clone https://github.com/jmrxx/laravel-api-rest.git
+cd laravel-api-rest
 ```
 ## Install Dependencies
 
