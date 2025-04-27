@@ -29,7 +29,9 @@ return [
         /*
          * Description rendered on the home page of the API documentation (`/docs/api`).
          */
-        'description' => 'This is the API documentation for the Laravel app.',
+        'description' => 'Automatic API documentation for the Laravel User API. 
+                    Includes endpoints secured with Laravel Sanctum for authentication and access control using Spatie Laravel Permission. 
+                    Generated automatically with Dedoc Scramble without manual annotations.',
     ],
 
     /*
@@ -39,9 +41,7 @@ return [
         /*
          * Define the title of the documentation's website. App name is used when this config is `null`.
          */
-        'title' => 'Automatic API documentation for the Laravel User API. 
-                    Includes endpoints secured with Laravel Sanctum for authentication and access control using Spatie Laravel Permission. 
-                    Generated automatically with Dedoc Scramble without manual annotations.',
+        'title' => 'Laravel User API Documentation',
 
         /*
          * Define the theme of the documentation. Available options are `light` and `dark`.
@@ -85,12 +85,17 @@ return [
      * Example of non-default config (final URLs are generated using Laravel `url` helper):
      *
      * ```php
-     * 'servers' => [
-     *     'Live' => 'api',
-     *     'Prod' => 'https://scramble.dedoc.co/api',
-     * ],
+      'servers' => [
+          'Live' => 'api',
+          'Prod' => 'https://scramble.dedoc.co/api',
+      ],
      * ```
      */
+
+    'servers' => [
+        'Live' => 'docs/v1/api/',
+    ],
+
     'servers' => null,
 
     /**
