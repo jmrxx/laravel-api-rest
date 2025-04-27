@@ -32,8 +32,8 @@ Follow these steps to set up the project:
 1. Clone the repository:
 
 ```bash
-git clone https://your-repository-link.git
-cd your-project-folder
+git clone https://github.com/jmrxx/laravel-api-rest.git
+cd laravel-api-rest
 ```
 ## Install Dependencies
 
@@ -71,7 +71,5 @@ php artisan db:seed
 
 ## License 📄
 This project is open-source and available under the [MIT License](LICENSE.md)
-
-This project is open-source and available under the MIT License.
 
 Made with **JMRX** using Laravel.
